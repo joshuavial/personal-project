@@ -1,23 +1,16 @@
 {
-  "name": "mvc-scaffold",
+  "name": "personal-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "personal project",
+  "main": "./boot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "jspm bundle-sfx ./lib/boot"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dev-academy-challenges/mvc-scaffold.git"
-  },
-  "author": "Joshua Vial <joshua@enspiral.com> (http://joshuavial.com/)",
+  "author": "tania-b",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dev-academy-challenges/mvc-scaffold/issues"
-  },
-  "homepage": "https://github.com/dev-academy-challenges/mvc-scaffold#readme",
   "devDependencies": {
-    "jspm": "^0.16.20"
+    "jspm": "^0.16.24"
   },
   "jspm": {
     "dependencies": {

@@ -1,17 +1,25 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Personal Project</title>
-  <script src="jspm_packages/system.js"></script>
-  <script src="config.js"></script>
-  <script>
-    System.import('app/boot.js');
-  </script>
-  <!-- bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">     
+  
   <!-- custom styles -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
+<div class="container text-center">
+  <canvas id="canvas" width="500" height="500">
+    Sorry, canvas is not supported in your current browser.
+  </canvas>
+</div>
+
+  <!-- jspm -->  
+  <script src="./build.js"></script>
 </body>
 </html>
