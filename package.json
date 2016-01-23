@@ -2,7 +2,7 @@
   "name": "personal-project",
   "version": "1.0.0",
   "description": "personal project",
-  "main": "./boot.js",
+  "main": "./lib/boot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "bundle": "jspm bundle-sfx ./lib/boot"
