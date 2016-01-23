@@ -1,0 +1,25 @@
+{
+  "name": "personal-project",
+  "version": "1.0.0",
+  "description": "personal project",
+  "main": "./boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "jspm bundle-sfx ./lib/boot"
+  },
+  "author": "tania-b",
+  "license": "ISC",
+  "devDependencies": {
+    "jspm": "^0.16.24"
+  },
+  "jspm": {
+    "dependencies": {
+      "jquery": "npm:jquery@^2.2.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
