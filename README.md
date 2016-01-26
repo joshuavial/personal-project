@@ -12,4 +12,5 @@ A Game with HTML 5, HTML 5 Canvas, CSS and JS.
 - Get bullets to fire in intended direction rather than randomly generated.
 - Render a map image (background) to the canvas.
 - Sprites / animations for entities.
+    + html canvas draw images
 
